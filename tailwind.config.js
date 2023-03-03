@@ -15,10 +15,17 @@ module.exports = {
             screens: {
                 '3xl': "1800px",
             },
+            colors: {
+                'black-rgba': 'rgb(107, 70, 193)',
+                'blue-rgba': 'rgb(107 70 193 / 20%) 0px 0px 50px 0px',
+                'gray-rgba': 'rgb(204, 204, 204)',
+            }
             
         },
         fontFamily: {
-            playFairDisplay: ['Playfair Display', 'serif']
+            playFairDisplay: ['Playfair Display', 'serif'],
+            inter:['Poppins', 'sans-serif']
+
         },
         screens: {
             'sm': '640px',
