@@ -1,8 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-.active{
-    border-bottom: solid 1px #6b46c1 ;
-    color: #6b46c1;
-    
+.active {
+  border-bottom: solid 1px #6b46c1;
+  color: #6b46c1;
 }
+.accordion::after {
+
+  content: "\2304"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+    content: "\2220"; /* Unicode character for "minus" sign (-) */
+  }
