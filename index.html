@@ -338,31 +338,119 @@
         </div>
       </div>
     </section>
-    <section class=" text-center w-50% border border-1 border-[#6b46c1] p-[64px] m-7 shadow-sm">
+    <section
+      class="text-center max-w-[1400px] m-auto mt-[130px] h-[352px] border border-1 p-[64px]"
+      style="
+        border-color: rgba(107, 70, 193, 0.4);
+        border-radius: 16px;
+        background-color: #fcfaff;
+        box-shadow: 0 0 50px 0 rgb(107 70 193 / 20%);
+      "
+    >
       <div class="">
         <h2 class="text[#1f173a] text-[48px]">Let’s save your money today</h2>
-        <div class="px-[20px] m-auto w-[50%] flex justify-center items-center">
+        <div
+          class="px-[10px] m-auto w-[60%] mt-3 flex justify-center items-center"
+        >
           <p class="text-[16px] text-[#728095]">
             Risus commodo id odio turpis pharetra elementum. Pulvinar porta
             porta feugiat scelerisque in elit. Morbi rhoncus, tellus, eros
             consequat magna semper orci a tincidunt.
           </p>
         </div>
-      <div class="flex m-auto justify-center items-center">
-          <form action="" method="post"  class="mt-7 w-full m-auto flex">
-          <input
-            type="email"
-            placeholder="Your Email"
-            class="w-[320px] h-auto text-[16px] p-[10px] border border-[#ccd5df] rounded bg-[#fff] focus:border-[#6b46c1]"
-          />
-          <input
-            type="submit"
-            class="border bg-[#6b46c1] text-center py-[16px] px-[20px] ml-4 rounded-[8px] text-[16px] font-500 text-white"
-            value="Join the waitlist "
-          />
-        </form> 
-      </div>
+        <div class="flex m-auto justify-center items-center">
+          <form action="" method="post" class="mt-7 w-full">
+            <input
+              type="email"
+              placeholder="Your Email"
+              class="w-[320px] h-auto text-[16px] p-[10px] border border-[#ccd5df] rounded bg-[#fff] focus:border-[#6b46c1]"
+            />
+            <input
+              type="submit"
+              class="border bg-[#6b46c1] text-center py-[16px] px-[20px] ml-4 rounded-[8px] text-[16px] font-500 text-white"
+              value="Subscribe"
+            />
+          </form>
+        </div>
       </div>
     </section>
+    <section class="mt-[100px] text-center">
+      <h2 class="text[#1f173a] text-[48px]">Pricing</h2>
+      <div
+        class="px-[10px] m-auto w-[60%] mt-3 flex justify-center items-center"
+      >
+        <p class="text-[16px] text-[#728095]">
+          Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta
+          feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat
+          magna semper orci a tincidunt.
+        </p>
+      </div>
+      <div class="mt-[70px]" id="oga">
+        <button
+          class="form-links active border-b text-center py-[16px] px-[20px] ml-4 text-[20px] cursor-pointer font-500 text-[#1f173a]"
+          onclick="opentab(event,'form1')"
+          id="defaultOpen"
+        >
+          Monthly
+        </button>
+        <button
+          class="form-links form-links border-b text-center py-[16px] px-[20px] ml-0 text-[20px] cursor-pointer font-500 text-[#1f173a]"
+          onclick="opentab(event,'form2')"
+        >
+          Yearly
+        </button>
+      </div>
+      <div
+        class="sugar flex gap-3 justify-center mt-12"
+        id="form1"
+        style="display: none"
+      >
+        <div class="border-1 rounded-lg border-[#728095]">
+          <h3 class="text-[24px] ">Lite plan</h3>
+          <p class="text-[14px] text-[#728095]">Mi sit amet maecenas augue</p>
+          <div class="">
+            <div>
+              <img
+                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                alt=""
+              />
+              <p>3 users in workspace</p>
+            </div>
+            <div>
+              <img
+                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                alt=""
+              />
+              <p>3 users in workspace</p>
+            </div>
+            <div>
+              <img
+                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                alt=""
+              />
+              <p>3 users in workspace</p>
+            </div>
+            <div>
+              <img
+                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                alt=""
+              />
+              <p>3 users in workspace</p>
+            </div>
+          </div>
+          <h2>$24
+            <span>/mo
+            </span>
+          </h2>
+          <button>Get started</button>
+        </div>
+      </div>
+      <div
+        class="sugar flex gap-3 justify-center mt-12"
+        id="form2"
+        style="display: none"
+      ></div>
+    </section>
+    <script src="main.js"></script>
   </body>
 </html>
