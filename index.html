@@ -249,10 +249,11 @@
         </div>
       </div>
     </section>
-    <section class=" text-center rounded-[16px] max-w-[800px] md:max-w-[1000px] m-auto mt-[100px]  md:mt-[130px] h-[380px] md:h-[250px] border border-1 lg:p-[64px]" style="border-color: rgba(107, 70, 193, 0.4);
+
+    <section class=" text-center rounded-[16px] max-w-[800px] md:mx-0 px-0 mx-auto  md:max-w-[900px]  lg:max-w-[1000px] lg:mx-auto mt-[100px]  md:mt-[130px] h-[385px] md:h-[250px] border border-1 lg:p-3" style="border-color: rgba(107, 70, 193, 0.4);
         border-radius: 16px;box-shadow: 0 0 50px 0 rgb(107 70 193 / 20%);">
       <div class="md:mt-[20px] mt-6">
-        <h2 class="text[#1f173a] text-[40px] leading-[40px] md:text-[48px]">Let’s save your money today</h2>
+        <h2 class="text[#1f173a] text-[35px] leading-[40px] md:text-[48px]">Let’s save your money today</h2>
         <div
           class=" md:px-[10px] m-auto  mt-4 md:mt-3 flex justify-center items-center"
         >
@@ -262,8 +263,8 @@
             consequat magna semper orci a tincidunt.
           </p>
         </div>
-        <div class="fpx-10 mt-7 flex items-center flex-col gap-5 md:flex-row">
-          <form action="" method="post" class="mt-7 w-full">
+        <div class="fpx-10 mt-2 flex items-center flex-col gap-5 md:flex-row">
+          <form action="" method="post" class="mt-7 md:mt-0 w-full">
             <input
               type="email"
               placeholder="Your Email"
@@ -271,25 +272,27 @@
             />
             <input
               type="submit"
-              class="border bg-[#6b46c1] text-center py-[10px] px-[20px] w-[300px] md:w-fit mt-6 rounded-[8px] text-[16px] font-500 text-white"
+              class="border bg-[#6b46c1] text-center py-[10px] px-[20px] w-[300px] md:w-fit mt-2 rounded-[8px] text-[16px] font-500 text-white"
               value="Subscribe"
             />
           </form>
         </div>
       </div>
     </section>
-    <section class=" mt-[100px] text-center">
+
+    <section class=" mt-[40px] md:mt-[100px] text-center">
+
       <h2 class="text[#1f173a] text-[48px]">Pricing</h2>
-      <div
-        class="px-[20px] m-auto  max-w-[600px] lg:max-w-[700px] mt-3 flex justify-center items-center"
-      >
-        <p class="text-[16px] px-[30px] text-[#728095]">
+
+      <div class="px-[20px] m-auto  max-w-[600px] lg:max-w-[700px] mt-3 flex justify-center items-center">
+        <p class="text-[16px] px-[10px] md:px-[30px] text-[#728095]">
           Risus commodo id odio turpis pharetra elementum. Pulvinar porta porta
           feugiat scelerisque in elit. Morbi rhoncus, tellus, eros consequat
           magna semper orci a tincidunt.
         </p>
       </div>
-      <div class="mt-[70px]" id="oga">
+
+      <div class="mt-[30px] md:mt-[70px]" id="oga">
         <button
           class="form-links active border-b text-center py-[16px] px-[20px] ml-4 text-[20px] cursor-pointer font-500 text-[#1f173a]"
           onclick="opentab(event,'form1')"
@@ -304,16 +307,11 @@
           Yearly
         </button>
       </div>
-      <div
-        class="sugar flex items-center m-auto justify-between  flex-wrap mt-12"
-        id="form1"
-        style="display: none">
+      
+      <div class="sugar flex w-full items-center px-2 md:mx-0 justify-between  flex-wrap mt-12" id="form1" style="display: none">
         <div
-          class="flex justify-center flex-col md:flex-row max-w-[80%] mx-auto gap-4 items-center align-middle p-[24px] mb-[50px]"
-        >
-          <div
-            class="border-1 md:w-[33%] w-full border border-[#ccd5d] text-left rounded-[16px]  lg:p-[24px]"
-          >
+          class="flex justify-center flex-col md:flex-row w-full  md:max-w-[80%] mx-auto gap-4 items-center align-middle lg:p-[24px] mb-[50px]">
+          <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]">
             <h3 class="text-[24px] font-semibold">Lite plan</h3>
             <p class="text-[14px] font-[400] mt-2">
               Mi sit amet maecenas augue
@@ -363,39 +361,158 @@
                 </div>
               </div>
             </div>
-            <h2 class="text-center text-[48px] my-7 font-semibold">
+            <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
               $24
               <span class="text-[#728095] ml-[-10px] text-[24px]">/mo</span>
             </h2>
-            <div class="flex justify-center w-full">
+            <div class="flex justify-center mb-3 w-full">
               <a
                 href="#"
-                style="
-                  padding: 16px 20px;
-                  border-radius: 8px;
-                  background-color: rgba(226, 232, 240, 0.5);
-                  transition: all 200ms ease;
-                  color: black;
-                  font-size: 16px;
-                  font-family: Inter, sans-serif;
-                  line-height: 20px;
-                  font-weight: 500;
-                  text-align: center;
-                  width: 100%;
-                  margin-top: 20px;
-                "
-              >
+                class="px-[20] py-[16px] rounded-[8px] text-black text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+                style="background-color: rgba(226, 232, 240, 0.5);transition: all 200ms ease;font-family: Inter, sans-serif;">
                 Get started
               </a>
             </div>
           </div>
-          <div
-            class="border-1 w-[33%] border border-[#ccd5d] text-left rounded-[16px] p-[24px]"
-            style="background-color: rgba(226, 232, 240, 0.5)"
-          > <h3 class="text-[24px] font-semibold">Basic plan</h3>
-          <p class="text-[14px] font-[400] mt-2">
-            Mi sit amet maecenas augue
-          </p>
+
+          <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]"style="background-color: rgba(226, 232, 240, 0.5);">
+
+            <h3 class="text-[24px] font-semibold">Basic plan</h3>
+            <p class="text-[14px] font-[400] mt-2">
+              Mi sit amet maecenas augue
+            </p>
+            <div
+              class="text-[14px] mt-5"
+              style="
+                border-bottom: solid 2px rgb(214, 194, 194);
+                border-top: solid 2px rgb(214, 194, 194);
+              "
+            >
+              <div class="mt-3 text-[#728095] text-[14px] font-[400]">
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">5 users in workspace</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Workflow automations</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Weekly Billing</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Collaborative work</p>
+                </div>
+                <div class="flex gap-2 mt-3 mb-[17px]">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">15 GB in cloud storage</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
+              $32
+              <span class="text-[#728095] ml-[-10px] text-[24px]">/mo</span>
+            </h2>
+            <div class="flex justify-center mb-3 w-full">
+              <a
+                href="#"
+                class="px-[20] py-[16px] rounded-[8px] text-white text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+                style="background-color: #6b46c1;transition: all 200ms ease;font-family: Inter, sans-serif;">
+                Get started
+              </a>
+            </div>
+          </div>
+
+          <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]">
+            <h3 class="text-[24px] font-semibold">Pro plan</h3>
+            <p class="text-[14px] font-[400] mt-2">
+              Mi sit amet maecenas augue
+            </p>
+            <div class="text-[14px] mt-5" style="border-bottom: solid 2px rgb(214, 194, 194); border-top: solid 2px rgb(214, 194, 194);">
+
+              <div class="mt-3 text-[#728095] text-[14px] font-[400]">
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">7 users in workspace</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Workflow automations</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Daily Billing</p>
+                </div>
+                <div class="flex gap-2 mt-3">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">Collaborative work</p>
+                </div>
+                <div class="flex gap-2 mt-3 mb-[17px]">
+                  <img
+                    src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                    alt=""
+                  />
+                  <p class="">20 GB in cloud storage</p>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
+              $40
+              <span class="text-[#728095] ml-[-10px] text-[24px]">/mo</span>
+            </h2>
+            <div class="flex justify-center mb-3 w-full">
+              <a
+                href="#"
+                class="px-[20] py-[16px] rounded-[8px] text-black text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+                style="background-color: rgba(226, 232, 240, 0.5);transition: all 200ms ease;font-family: Inter, sans-serif;">
+                Get started
+              </a>
+            </div>
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="sugar flex w-full items-center px-2 md:mx-0 justify-between  flex-wrap mt-12" id="form2" style="display: none">
+
+      <div class="flex justify-center flex-col md:flex-row w-full  md:max-w-[80%] mx-auto gap-4 items-center align-middle lg:p-[24px] mb-[50px]">
+
+        <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]">
+
+          <h3 class="text-[24px] font-semibold">Lite plan</h3>
+
+          <p class="text-[14px] font-[400] mt-2"> Mi sit amet maecenas augue</p>
+
           <div
             class="text-[14px] mt-5"
             style="
@@ -404,6 +521,66 @@
             "
           >
             <div class="mt-3 text-[#728095] text-[14px] font-[400]">
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">3 users in workspace</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Workflow automations</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Monthly Billing</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Collaborative work</p>
+              </div>
+              <div class="flex gap-2 mt-3 mb-[17px]">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">10 GB in cloud storage</p>
+              </div>
+            </div>
+          </div>
+          <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
+            $240
+            <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
+          </h2>
+          <div class="flex justify-center mb-3 w-full">
+            <a
+              href="#"
+              class="px-[20] py-[16px] rounded-[8px] text-black text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+              style="background-color: rgba(226, 232, 240, 0.5);transition: all 200ms ease;font-family: Inter, sans-serif;">
+              Get started
+            </a>
+          </div>
+        </div>
+
+        <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]"style="background-color: rgba(226, 232, 240, 0.5);">
+
+          <h3 class="text-[24px] font-semibold">Basic plan</h3>
+          <p class="text-[14px] font-[400] mt-2"> Mi sit amet maecenas augue </p>
+
+          <div class="text-[14px] mt-5" style=" border-bottom: solid 2px rgb(214, 194, 194);border-top: solid 2px rgb(214, 194, 194);">
+
+            <div class="mt-3 text-[#728095] text-[14px] font-[400]">
+
               <div class="flex gap-2 mt-3">
                 <img
                   src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
@@ -441,455 +618,182 @@
               </div>
             </div>
           </div>
-          <h2 class="text-center text-[48px] my-7 font-semibold">
-            $32
-            <span class="text-[#728095] ml-[-10px] text-[24px]">/mo</span>
+
+          <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
+            $320
+            <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
           </h2>
-          <div class="flex justify-center w-full">
+
+          <div class="flex justify-center mb-3 w-full">
             <a
               href="#"
-              style="
-                padding: 16px 20px;
-                border-radius: 8px;
-                background-color: #6b46c1;
-                transition: all 200ms ease;
-                color: white;
-                font-size: 16px;
-                font-family: Inter, sans-serif;
-                line-height: 20px;
-                font-weight: 500;
-                text-align: center;
-                width: 100%;
-                margin-top: 20px;
-              "
-            >
+              class="px-[20] py-[16px] rounded-[8px] text-white text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+              style="background-color: #6b46c1;transition: all 200ms ease;font-family: Inter, sans-serif;">
               Get started
             </a>
           </div>
         </div>
-        <div
-        class="border-1 w-[33%] border border-[#ccd5d] text-left rounded-[16px] p-[24px]"
-      >
-      <h3 class="text-[24px] font-semibold">Pro plan</h3>
-      <p class="text-[14px] font-[400] mt-2">
-        Mi sit amet maecenas augue
-      </p>
-      <div
-        class="text-[14px] mt-5"
-        style="
-          border-bottom: solid 2px rgb(214, 194, 194);
-          border-top: solid 2px rgb(214, 194, 194);
-        "
-      >
-        <div class="mt-3 text-[#728095] text-[14px] font-[400]">
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">7 users in workspace</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Workflow automations</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Daily Billing</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Collaborative work</p>
-          </div>
-          <div class="flex gap-2 mt-3 mb-[17px]">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">20 GB in cloud storage</p>
-          </div>
-        </div>
-      </div>
-      <h2 class="text-center text-[48px] my-7 font-semibold">
-        $40
-        <span class="text-[#728095] ml-[-10px] text-[24px]">/mo</span>
-      </h2>
-      <div class="flex justify-center w-full">
-        <a
-          href="#"
-          style="
-            padding: 16px 20px;
-            border-radius: 8px;
-            background-color: rgba(226, 232, 240, 0.5);
-            transition: all 200ms ease;
-            color: black;
-            font-size: 16px;
-            font-family: Inter, sans-serif;
-            line-height: 20px;
-            font-weight: 500;
-            text-align: center;
-            width: 100%;
-            margin-top: 20px;
-          "
-        >
-          Get started
-        </a>
-      </div>
-    </div>
-        </div>
-        
-        </div>
-      </div>
-      <div
-        class="sugar flex gap-3 justify-center mt-12"
-        id="form2"
-        style="display: none"
-      >
-      <div
-      class="flex justify-center max-w-[80%] mx-auto gap-4 items-center align-middle p-[24px] mb-[50px]"
-    >
-      <div
-        class="border-1 w-[33%] border border-[#ccd5d] text-left rounded-[16px] p-[24px]"
-      >
-        <h3 class="text-[24px] font-semibold">Lite plan</h3>
-        <p class="text-[14px] font-[400] mt-2">
-          Mi sit amet maecenas augue
-        </p>
-        <div
-          class=" mt-5"
-          style="
-            border-bottom: solid 2px rgb(214, 194, 194);
-            border-top: solid 2px rgb(214, 194, 194);
-          "
-        >
-          <div class="mt-3 text-[#728095] text-[14px] font-[400]">
-            <div class="flex gap-2 mt-3">
-              <img
-                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-                alt=""
-              />
-              <p class="">3 users in workspace</p>
-            </div>
-            <div class="flex gap-2 mt-3">
-              <img
-                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-                alt=""
-              />
-              <p class="">Workflow automations</p>
-            </div>
-            <div class="flex gap-2 mt-3">
-              <img
-                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-                alt=""
-              />
-              <p class="">Monthly Billing</p>
-            </div>
-            <div class="flex gap-2 mt-3">
-              <img
-                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-                alt=""
-              />
-              <p class="">Collaborative work</p>
-            </div>
-            <div class="flex gap-2 mt-3 mb-[17px]">
-              <img
-                src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-                alt=""
-              />
-              <p class="">10 GB in cloud storage</p>
+
+        <div class="border-1 md:w-[33%] w-full border border-[#ccd5d] py-3 px-2 text-left rounded-[16px]  lg:p-[24px]">
+
+          <h3 class="text-[24px] font-semibold">Pro plan</h3>
+          <p class="text-[14px] font-[400] mt-2"> Mi sit amet maecenas augue </p>
+
+          <div class="text-[14px] mt-5" style="border-bottom: solid 2px rgb(214, 194, 194); border-top: solid 2px rgb(214, 194, 194);">
+
+            <div class="mt-3 text-[#728095] text-[14px] font-[400]">
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">7 users in workspace</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Workflow automations</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Daily Billing</p>
+              </div>
+              <div class="flex gap-2 mt-3">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">Collaborative work</p>
+              </div>
+              <div class="flex gap-2 mt-3 mb-[17px]">
+                <img
+                  src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
+                  alt=""
+                />
+                <p class="">20 GB in cloud storage</p>
+              </div>
             </div>
           </div>
-        </div>
-        <h2 class="text-center text-[48px] my-7 font-semibold">
-          $240
-          <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
-        </h2>
-        <div class="flex justify-center w-full">
-          <a
-            href="#"
-            style="
-              padding: 16px 20px;
-              border-radius: 8px;
-              background-color: rgba(226, 232, 240, 0.5);
-              transition: all 200ms ease;
-              color: black;
-              font-size: 16px;
-              font-family: Inter, sans-serif;
-              line-height: 20px;
-              font-weight: 500;
-              text-align: center;
-              width: 100%;
-              margin-top: 20px;
-            "
-          >
-            Get started
-          </a>
-        </div>
-      </div>
-      <div
-        class="border-1 w-[33%] border border-[#ccd5d] text-left rounded-[16px] p-[24px]"
-        style="background-color: rgba(226, 232, 240, 0.5)"
-      > <h3 class="text-[24px] font-semibold">Basic plan</h3>
-      <p class="text-[14px] font-[400] mt-2">
-        Mi sit amet maecenas augue
-      </p>
-      <div
-        class="text-[14px] mt-5"
-        style="
-          border-bottom: solid 2px rgb(214, 194, 194);
-          border-top: solid 2px rgb(214, 194, 194);
-        "
-      >
-        <div class="mt-3 text-[#728095] text-[14px] font-[400]">
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">5 users in workspace</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Workflow automations</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Weekly Billing</p>
-          </div>
-          <div class="flex gap-2 mt-3">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">Collaborative work</p>
-          </div>
-          <div class="flex gap-2 mt-3 mb-[17px]">
-            <img
-              src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-              alt=""
-            />
-            <p class="">15 GB in cloud storage</p>
+          <h2 class="text-center text-[48px] my-2 md:my-7 font-semibold">
+            $400
+            <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
+          </h2>
+          <div class="flex justify-center mb-3 w-full">
+            <a
+              href="#"
+              class="px-[20] py-[16px] rounded-[8px] text-black text-[16px] font-semibold leading-[20px] w-[100%] text-center mt-[20px]"
+              style="background-color: rgba(226, 232, 240, 0.5);transition: all 200ms ease;font-family: Inter, sans-serif;">
+              Get started
+            </a>
           </div>
         </div>
+
       </div>
-      <h2 class="text-center text-[48px] my-7 font-semibold">
-        $320
-        <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
-      </h2>
-      <div class="flex justify-center w-full">
-        <a
-          href="#"
-          style="
-            padding: 16px 20px;
-            border-radius: 8px;
-            background-color: #6b46c1;
-            transition: all 200ms ease;
-            color: white;
-            font-size: 16px;
-            font-family: Inter, sans-serif;
-            line-height: 20px;
-            font-weight: 500;
-            text-align: center;
-            width: 100%;
-            margin-top: 20px;
-          "
-        >
-          Get started
-        </a>
-      </div>
-    </div>
-    <div
-    class="border-1 w-[33%] border border-[#ccd5d] text-left rounded-[16px] p-[24px]"
-  >
-  <h3 class="text-[24px] font-semibold">Pro plan</h3>
-  <p class="text-[14px] font-[400] mt-2">
-    Mi sit amet maecenas augue
-  </p>
-  <div
-    class="text-[14px] mt-5"
-    style="
-      border-bottom: solid 2px rgb(214, 194, 194);
-      border-top: solid 2px rgb(214, 194, 194);
-    "
-  >
-    <div class="mt-3 text-[#728095] text-[14px] font-[400]">
-      <div class="flex gap-2 mt-3">
-        <img
-          src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-          alt=""
-        />
-        <p class="">7 users in workspace</p>
-      </div>
-      <div class="flex gap-2 mt-3">
-        <img
-          src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-          alt=""
-        />
-        <p class="">Workflow automations</p>
-      </div>
-      <div class="flex gap-2 mt-3">
-        <img
-          src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-          alt=""
-        />
-        <p class="">Daily Billing</p>
-      </div>
-      <div class="flex gap-2 mt-3">
-        <img
-          src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-          alt=""
-        />
-        <p class="">Collaborative work</p>
-      </div>
-      <div class="flex gap-2 mt-3 mb-[17px]">
-        <img
-          src="https://uploads-ssl.webflow.com/6267b52ba9dc25e3a0821a02/626b85bfe68270590193bf83_check.png"
-          alt=""
-        />
-        <p class="">20 GB in cloud storage</p>
-      </div>
-    </div>
-  </div>
-  <h2 class="text-center text-[48px] my-7 font-semibold">
-    $400
-    <span class="text-[#728095] ml-[-10px] text-[24px]">/year</span>
-  </h2>
-  <div class="flex justify-center w-full">
-    <a
-      href="#"
-      style="
-        padding: 16px 20px;
-        border-radius: 8px;
-        background-color: rgba(226, 232, 240, 0.5);
-        transition: all 200ms ease;
-        color: black;
-        font-size: 16px;
-        font-family: Inter, sans-serif;
-        line-height: 20px;
-        font-weight: 500;
-        text-align: center;
-        width: 100%;
-        margin-top: 20px;
-      "
-    >
-      Get started
-    </a>
-  </div>
-</div>
-    </div>
       
-      
-    </div>
+      </div>
+
     </section>
 
-    <section class="hidden text-center mt-[80px] w-full">
-      <h1 class="text-[48px] font-[600] text-[#1f173a]">Frequently Asked Questions</h1>
+    <section class=" text-center mt-[30px] md:mt-[80px] w-full">
 
-      <div class="flex mt-[80px] gap-5 justify-center max-w-[75rem] mx-auto">
+      <h1 class="text-[35px] md:text-[48px] font-[600] leading-[40px] text-[#1f173a]">Frequently Asked Questions</h1>
 
-        <div class="flex-1 h-full flex flex-col">
+      <div class="flex flex-col md:flex-row mt-[30px]  md:mt-[80px] gap-2 md:gap-5 justify-center max-w-[75rem] mx-auto">
 
-          <div class="my-3 w-full rounded-[15px] border border-[#ccd5df]">
-            <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s" >
+        <div class="flex-1 h-full flex md:mx-0 mx-2 flex-col">
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >
               How much costs your services?</h3>
             <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
             style="display: none">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
           </div>
-          <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-            <h3 class="accordion text-[20px]  text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">How will you help me?</h3>
-            <div class="panel p-[10px] text-[14px] flex justify-center overflow-hidden items-center text-left" 
-            style="display: none;">
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" > How will you help me? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
           </div>
-          <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-            <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">What is your workflow?</h3>
-            <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
-            style="display: none;">
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" > What is your workflow? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
           </div>
-          <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-            <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">Which services do you provide?</h3>
-            <div class="panel p-[10px] text-[14px] flex justify-center overflow-hidden items-center text-left" 
-            style="display: none;">
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" > Which services do you provide? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
           </div>
-          <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-            <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">How can I build my brand without a lot of money?</h3>
-            <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >How can I build my brand without a lot of money? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="flex-1 h-full flex md:mx-0 mx-2 flex-col">
+
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >Which services do you provide? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+          </div>
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >How can I build my brand without a lot of money? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+          </div>
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >What should I do after applying form? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+          </div>
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" > How much costs your services? </h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
+            style="display: none">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+            </div>
+          </div>
+          <div class="my-3 md:px-0 px-3 max-w-[500px] w-full rounded-[15px] border border-[#ccd5df]">
+            <h3 class="accordion text-[16px] md:text-[20px] text-[#444] cursor-pointer p-[10px] md:p-[18px] text-left transition-0.4s" >How will you help me?</h3>
+            <div class="panel p-[10px] text-[14px] flex justify-center items-center text-left overflow-hidden" 
             style="display: none">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
             </div>
           </div>
         </div>
-        <div class="flex-1 h-full flex flex-col" >
 
-        <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-          <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">Which services do you provide?</h3>
-          <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
-          style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-        <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]" >
-          <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s" >How can I build my brand without a lot of money?</h3>
-          <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-leftr" 
-          style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-        <div class="my-3 w-full rounded-[15px] border border-[#ccd5df]" >
-          <h3 class="accordion text-[20px]  text-[#444] cursor-pointer p-[18px] text-left transition-0.4s" >What should I do after applying form?</h3>
-          <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
-          style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-        <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-          <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">How much costs your services?</h3>
-          <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
-          style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-        <div class="my-3 w-full border border-[#ccd5df] rounded-[15px]">
-          <h3 class="accordion text-[20px] text-[#444] cursor-pointer p-[18px] text-left transition-0.4s">How will you help me?</h3>
-          <div class="panel p-[10px] text-[14px] flex justify-center items-center overflow-hidden text-left" 
-          style="display: none;">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-          </div>
-        </div>
-        </div>
-    </div>
     </section>
-    <section class="hidden text-center max-w-[1440px] m-auto mt-[130px] h-[258px] border border-1 p-[64px]"
-      style="
-        border-color: rgba(107, 70, 193, 0.4);
-        border-radius: 16px;
-        background-color: #6b46c1;
-        box-shadow: 0 0 50px 0 rgb(107 70 193 / 20%);
-      "
-    >
-      <div class="flex justify-between gap-[30px] m-auto  ">
+
+    <section class=" text-center max-w-[1440px] h-[198px] rounded-[16px] m-auto mt-[130px] md:h-[208px] bg-[#6b46c1] border border-1 p-[64px]" style=" border-color: rgba(107, 70, 193, 0.4);box-shadow: 0 0 50px 0 rgb(107 70 193 / 20%);">
+
+      <div class="flex justify-between gap-[30px] flex-col md:flex-row m-auto  ">
         <h2 class="text-white px-2 text-[48px] font-[600]  text-center">Ready to superpower your business?</h2>
         <div
           class="px-[10px]   mt-3 flex  justify-end items-center"
