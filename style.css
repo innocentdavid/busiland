@@ -6,14 +6,19 @@
   border-bottom: solid 1px #6b46c1;
   color: #6b46c1;
 }
+
 .accordion::after {
 
-  content: "\2304"; /* Unicode character for "plus" sign (+) */
+  content: "\2304";
+  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
   margin-left: 5px;
 }
+
 .active:after {
-    content: "\2220"; /* Unicode character for "minus" sign (-) */
-  }
+  content: "\2304";
+  transform: rotate(180deg);
+  margin-top: 10px;
+}
